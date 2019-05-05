@@ -1,7 +1,56 @@
+@font-face {
+    font-family: 'airstreamregular';
+    src: url('police/Airstream-webfont.eot');
+    src: url('police/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Airstream-webfont.woff2') format('woff2'),
+         url('police/Airstream-webfont.woff') format('woff'),
+         url('police/Airstream-webfont.ttf') format('truetype'),
+         url('police/Airstream-webfont.svg#airstreamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'grutchshadedregular';
+    src: url('police/GrutchShaded-webfont.eot');
+    src: url('police/GrutchShaded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/GrutchShaded-webfont.woff2') format('woff2'),
+         url('police/GrutchShaded-webfont.woff') format('woff'),
+         url('police/GrutchShaded-webfont.ttf') format('truetype'),
+         url('police/GrutchShaded-webfont.svg#grutchshadedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+	font-family: 'airstreamregular';
+	font-size: 4em;
+	text-shadow: 2px 2px 2px blue;}
+
+h2,h3{
+	font-family: 'airstreamregular';
+	text-shadow: 2px 2px 2px blue;}
+
+header{
+	background-color:;}
+#nomsite{
+	text-align:center;}
+footer{
+	background-color: red;}
+/*nav{
+	height:200%;
+	width: 100%;}*/
+#video{
+	background-color:yellow;}
+
+
 #galerie-menu 
 {
 	height:300px;
-	width:670px;
+	width:730px;
 	margin:3em auto;
 	border:solid;
 	border-radius:5px;
@@ -21,14 +70,16 @@
 	position:relative;
 	z-index:1;
 	box-shadow:0 0 15px white;
-	transition:1s;
+	transition:2s;
+	transition-timing-function: cubic-bezier(0.00,0.01,0.00,1.00);
 }
 #galerie-menu a:hover , #galerie-menu a:focus 
 {
 	width:400px;
-	transition:1s;
+	transition:2s;
+	transition-timing-function: cubic-bezier(0.00,0.01,0.00,1.00);
 }
-#galerie-menu a:first-child 
+#galerie-menu a:first-child , #galerie-menu:hover a:focus:first-child 
 {
 	width:400px;
 	position:absolute;

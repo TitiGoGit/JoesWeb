@@ -29,13 +29,15 @@ body{
 	background-attachment: fixed;
 	background-size: contain, ;}
 
-#bloc2{
-
+#bloc2{/*ici encadré transparent blanc*/
+	background-color: rgb( 232, 231, 227 );;
+	opacity: 0.85;
 	margin: 10%;
 	margin-bottom:5%;
-	border: 0.5em ridge rgb(70, 147, 234);
+	border: 0.5em ridge rgb(95, 193, 145);
 	border-radius: 45px;
 	box-shadow: 2px 2px 5px rgb( 164, 236, 241 );}
+
 h1{
 	color: rgb( 95, 193, 145 );
 	font-family: 'airstreamregular';
@@ -44,10 +46,20 @@ h1{
 h2{
 	display:none;}
 h3{
+	border: 1px solid green;
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	justify-content: center;
+	font-family: 'grutchshadedregular';
+	text-shadow: 2px 2px 2px green;}
+p{
+	color: rgb(95, 193, 145);
+	text-shadow: 2px 3px 3px rgb( 164, 236, 241 );
+	text-align:center;}
 
-	font-family: 'airstreamregular';
-	text-shadow: 2px 2px 2px rgb(201, 241, 164);}
-
+a:hover{
+	display:content;}
 .titre{
 	display: flex;
 	justify-content: center;}
@@ -64,8 +76,8 @@ ul{
 	flex-direction: rew;}
 #video{
 	background-color:;}
-
-
+li{
+	list-style: none;}
 #galerie-menu 
 {
 	height:300px;
@@ -78,6 +90,7 @@ ul{
 	position:relative;
 	white-space:nowrap;
 	overflow:hidden;
+	opacity:1;
 }
 #galerie-menu a, #galerie-menu:hover a:focus 
 {

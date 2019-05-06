@@ -37,21 +37,25 @@ body{
 	border-radius: 45px;
 	box-shadow: 2px 2px 5px rgb( 164, 236, 241 );}
 h1{
+	color: rgb( 95, 193, 145 );
 	font-family: 'airstreamregular';
-	font-size: 4em;
-	text-shadow: 2px 2px 2px rgb( 164, 236, 241 );}
-
-h2,h3{
+	font-size: 6em;
+	text-shadow: 2px 10px 10px rgb( 164, 236, 241 );}
+h2{
+	display:none;}
+h3{
 
 	font-family: 'airstreamregular';
 	text-shadow: 2px 2px 2px rgb(201, 241, 164);}
+
 .titre{
 	display: flex;
 	justify-content: center;}
 header{
 	background-color:;}
 #nomsite{
-	text-align:center;}
+	text-align:center;
+	font-size: 8em;}
 footer{
 	background-color: ;}
 ul{

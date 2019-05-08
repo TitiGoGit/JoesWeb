@@ -1,2 +1,5 @@
-let b2bkgrd = document.getElementById("bloc2")
-b2bkgrd.style.opacity="0.7";
+
+
+let element = document.getElementById('bloc2');
+element.style.backgroundColor="";
+
